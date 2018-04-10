@@ -1,0 +1,5 @@
+class Laser {
+	constructor(clr, ) {
+
+	}
+}

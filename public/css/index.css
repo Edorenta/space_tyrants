@@ -1,0 +1,87 @@
+/* CLASSES */
+.intro_button {
+    font-family: 'joystix_monospace';
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    height: 12vw;
+    width: 25vw;
+    border-width: 0.3vw;
+    border-radius: 1.5vw;
+    border-color: #fff;
+    background: transparent;
+    cursor: url('../assets/site/crosshair_pink32.png') 16 16, default; /*auto if crosshair not found*/
+    background: #000;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.18), 0 1px 5px 0 rgba(0,0,0,.15);
+    color: #ffcb11;
+    display: block;
+    margin: 0 auto;
+    /*
+    position: relative;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    */
+}
+.intro_button:hover {
+    background: #ffcb11;
+    color: #000;
+}
+.img_contain {
+    max-width: 85vw;
+    max-height: 28vh;
+    display: block;
+    margin: 0 auto;
+    /*object-fit: contain;*/
+}
+
+/*
+.img_fill { object-fit: fill }
+.img_cover { object-fit: cover }
+.img_none { object-fit: none }
+.img_scale-down { object-fit: scale-down }
+*/
+
+/* IDs */
+#title_div {
+    position: absolute;
+    width: 100vw;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-gap: 0vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+}
+#gif_div {
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+#menu_div {
+    position: absolute;
+    top: 55vh;
+    width: 100vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+}

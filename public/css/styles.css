@@ -1,0 +1,20 @@
+/* FONTS */
+@font-face {
+    font-family: 'joystix_monospace';
+    src: url('../fonts/joystix_monospace.eot'), /* IE9 Compat Modes */
+         url('../fonts/joystix_monospace.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/joystix_monospace.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/joystix_monospace.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/joystix_monospace.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/joystix_monospace.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* BODY */
+html, body {
+    height: 100%; 
+    cursor: url('../assets/site/crosshair_green32.png') 16 16, default; /*auto if crosshair not found*/
+    padding: 0;
+    margin: 0;
+}

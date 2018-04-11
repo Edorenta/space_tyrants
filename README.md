@@ -1,1 +1,1 @@
-![alt text](https://github.com/Edorenta/space_tyrants/git/start.gif)
+![alt text](https://github.com/Edorenta/space_tyrants/master/git/start.gif)
